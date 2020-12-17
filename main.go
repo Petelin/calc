@@ -9,10 +9,7 @@ import (
 )
 
 import (
-	"github.com/alfredxing/calc/compute"
-)
-
-import (
+	"github.com/petelin/calc/compute"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

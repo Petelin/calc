@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	"github.com/alfredxing/calc/constants"
-	"github.com/alfredxing/calc/operators"
-	"github.com/alfredxing/calc/operators/functions"
+	"github.com/petelin/calc/constants"
+	"github.com/petelin/calc/operators"
+	"github.com/petelin/calc/operators/functions"
 )
 
 var resHistory = []float64{}
