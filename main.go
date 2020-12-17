@@ -53,6 +53,7 @@ func main() {
 		if text == "exit" || text == "quit" {
 			break
 		}
+		text = strings.ReplaceAll(text, ",", "")
 
 		res, err := compute.Evaluate(text)
 		if err != nil {
